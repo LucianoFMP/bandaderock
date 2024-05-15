@@ -12,7 +12,6 @@ body{
     height: 100vh;
     position: relative;
     background: url(loranfone.png);
-    background-size: cover;
     background-repeat: no-repeat;
 }
 
