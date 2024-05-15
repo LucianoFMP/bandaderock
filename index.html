@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loran Regis</title>
+
 <style>
 * {
   box-sizing: border-box;
@@ -17,8 +20,8 @@ body {
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width:70%; 
-  min-height: 70%;
+  min-width:100%; 
+  min-height: 100%;
 }
 
 .content {
@@ -46,13 +49,31 @@ body {
 }
 </style>
 </head>
-<body>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <body>
 
 <video autoplay muted loop id="myVideo">
   <source src="movie.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
+    
+<nav id="menu-h">
+    <ul>
+        <li><a href="https://edition.cnn.com/">Home</a></li>
+        <li><a href="https://www.globo.com/">Sobre</a></li>
+        <li><a href="https://www.uol.com.br/">Lista</a</li>
+        <li><a href="https://www.theguardian.com/international">Contato</a></li>
+        <li><a href="https://www.bbc.com/">Ajuda</a></li>
+    </ul>
+</nav>
 
+  <div class="box">
+  <h1 style="color:red; text-align: center; font-size:500%;">Rodrigo Correia</h1>
+  </div>
+            
+  
 <script>
 var video = document.getElementById("myVideo");
 var btn = document.getElementById("myBtn");
